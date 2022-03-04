@@ -1,0 +1,131 @@
+@import "index.html";
+body {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.circle-rotate {
+  animation-name: circle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  border-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  border: 7px solid white;
+  position: relative;
+}
+
+.loading {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 100px;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.inside-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #987095;
+  position: absolute;
+  top: 0px;
+}
+@keyframes circle {
+  to {
+    transform: rotateZ(0deg);
+  }
+  from {
+    transform: rotateZ(360deg);
+  }
+}
+
+.loading__text {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.loading__text div {
+  width: 10px;
+  margin-left: 10px;
+  display: flex;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: 85px;
+}
+.circle:nth-child(4) {
+  animation-name: disappear;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-delay: 0.9s;
+}
+.circle:nth-child(2) {
+  animation-name: disappear;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-delay: 0.3s;
+}
+.circle:nth-child(3) {
+  animation-name: disappear;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+  animation-delay: 0.6s;
+}
+.loading__text h2 {
+  animation-name: change;
+  animation-duration: 11.3s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  color: black;
+}
+@keyframes disappear {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: black;
+  }
+}
+.rotate {
+  width: 1000px;
+  height: 700px;
+}
+@keyframes change {
+  50% {
+    color: white;
+  }
+  100% {
+    display: none;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  height: 30px;
+}
+a > h1 {
+  font-size: 50px;
+  margin-bottom: 200px;
+  color: black;
+  animation-name: appear;
+  animation-delay: 10.5s;
+  animation-duration: 2s;
+}
+@keyframes appear {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
