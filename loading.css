@@ -1,4 +1,4 @@
-@import "index.html";
+@import "content.html";
 body {
   background-color: black;
   width: 100%;
@@ -118,7 +118,7 @@ a > h1 {
   margin-bottom: 200px;
   color: black;
   animation-name: appear;
-  animation-delay: 10.5s;
+  animation-delay: 10s;
   animation-duration: 2s;
 }
 @keyframes appear {
