@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
 body {
   width: 100%;
   height: 100vh;
@@ -15,34 +16,24 @@ body {
   background-color: whitesmoke;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
 }
+.column {
+  display: flex;
+  flex-direction: row;
+}
 .top-statusbar {
   display: flex;
   width: 100%;
-  height: 200px;
-  justify-content: center;
+  height: 100px;
+  justify-content: space-around;
 }
-.top-statusbar__title h1 {
-  font-size: 50px;
-  width: 100%;
-  margin-right: 50px;
-  color: #bf9270;
-  margin-left: 200px;
-}
+
 .top-statusbar__title h2 {
   font-size: 30px;
   margin-right: 50px;
   color: rgba(0, 0, 0, 0.301);
   margin-left: 200px;
 }
-.top-statusbar__title:first-child {
-  margin-left: 200px;
-  font-size: 20px;
-  color: #e3b7a0;
-}
-.column {
-  display: flex;
-  flex-direction: row;
-}
+
 .table-of-content {
   margin-left: 20px;
   font-size: 20px;
@@ -60,6 +51,7 @@ body {
   border-radius: 15px;
   width: 210px;
   height: 50px;
+  margin-top: 100px;
 }
 .table-of-content:nth-child(2) {
   margin-bottom: 30px;
@@ -149,8 +141,20 @@ a {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 600px;
+  height: 700px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+.link_to_back {
+  margin-top: 30px;
+  margin-right: 450px;
+}
+.top-statusbar__title {
+  display: flex;
+  justify-content: space-between;
+}
+.center-contents h1 {
+  font-size: 40px;
 }
