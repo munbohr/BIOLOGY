@@ -8,6 +8,7 @@ body {
   background-color: rgba(0, 0, 0, 0.801);
   padding: 30px 10px;
   font-family: "Do Hyeon", sans-serif;
+  box-sizing: border-box;
 }
 .dvdv {
   border-radius: 30px;
