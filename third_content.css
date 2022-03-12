@@ -158,3 +158,16 @@ a {
 .center-contents h1 {
   font-size: 40px;
 }
+.center-contents p {
+  width: 80%;
+  font-size: 20px;
+}
+.center-contents ol {
+  font-size: 25px;
+}
+.number-box {
+  width: 100%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+}

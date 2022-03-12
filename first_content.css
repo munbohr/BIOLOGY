@@ -158,3 +158,49 @@ a {
 .center-contents h1 {
   font-size: 40px;
 }
+.center-contents__row {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+.center-contents__row p {
+  font-size: 20px;
+  margin-left: 20px;
+  line-height: 40px;
+  width: 82%;
+}
+#first-photo {
+  width: 120px;
+  height: 170px;
+  border-radius: 10%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.507);
+}
+#second-photo {
+  width: 120px;
+  height: 170px;
+  margin-top: 10px;
+  border-radius: 10%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.507);
+}
+#third-photo {
+  width: 160px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.507);
+}
+
+.center-contents__row:last-child p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+.center-contents__content {
+  width: 680px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
