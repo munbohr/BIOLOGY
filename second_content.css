@@ -93,6 +93,7 @@ body {
 .table-of-content:hover {
   color: rgb(58, 170, 245);
   cursor: pointer;
+  transform: scale(1.1);
 }
 a {
   text-decoration: none;

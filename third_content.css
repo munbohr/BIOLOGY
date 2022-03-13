@@ -93,6 +93,7 @@ body {
 .table-of-content:hover {
   color: rgb(58, 170, 245);
   cursor: pointer;
+  transform: scale(1.1);
 }
 a {
   text-decoration: none;
@@ -160,9 +161,17 @@ a {
   font-size: 40px;
 }
 .center-contents p {
-  width: 80%;
-  font-size: 20px;
+  width: 516px;
+  font-size: 25px;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 0px;
   margin-top: 100px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+}
+.center-contents p:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(58, 170, 245);
+  transform: scale(1.2);
 }
