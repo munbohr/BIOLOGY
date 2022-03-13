@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  height: 1800px;
+  height: 2000px;
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.801);
@@ -13,7 +13,7 @@ body {
 .dvdv {
   border-radius: 30px;
   width: 1255px;
-  height: 1400px;
+  height: 1800px;
   background-color: whitesmoke;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
 }
@@ -42,7 +42,7 @@ a {
 .row {
   display: flex;
   width: 1200px;
-  height: 1400px;
+  height: 1800px;
   justify-content: center;
   margin-left: 35px;
   line-height: 40px;
@@ -70,7 +70,7 @@ a {
 }
 .center-contents {
   width: 1100px;
-  height: 1200px;
+  height: 1600px;
   margin-bottom: 100px;
   display: flex;
   justify-content: flex-start;
@@ -105,11 +105,49 @@ a {
   display: flex;
   justify-content: center;
 }
+#first-photo {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  padding: 20px;
+  margin-right: 30px;
+}
+#second-photo {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  padding: 20px;
+}
+#third-photo {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  padding: 20px;
+  margin-right: 30px;
+}
+#fourth-photo {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  padding: 20px;
+}
 #fifth-photo {
   width: 200px;
   height: 150px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  margin-right: 30px;
 }
 #sixth-photo {
   width: 300px;
-  height: 150px;
+  height: 160px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+}
+#seventh-photo {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  padding: 10px;
+}
+li {
+  margin-bottom: 20px;
+}
+li img {
+  margin-top: 10px;
 }
