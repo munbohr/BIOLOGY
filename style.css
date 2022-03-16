@@ -142,8 +142,24 @@ a {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 600px;
+  height: 650px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.514);
+}
+.row p {
+  margin-top: 270px;
+}
+#lee {
+  width: 290px;
+  height: 490px;
+}
+.hidden {
+  display: none;
+}
+.appear {
+  display: block;
+}
+.p {
+  color: #2d2d2d;
 }
