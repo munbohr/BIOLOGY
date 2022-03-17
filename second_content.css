@@ -143,10 +143,10 @@ a {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 700px;
+  height: 720px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.514);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.515);
 }
 
 .link_to_back {
@@ -168,10 +168,11 @@ a {
 #first-photo {
   width: 200px;
   height: 100px;
-  border-radius: 10%;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.507);
+  padding: 10px;
+  border-radius: 8%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 #second-photo {
   border-radius: 10%;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.507);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
